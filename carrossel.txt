@@ -1,0 +1,31 @@
+ <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"> </script>
+    <script>src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"</script>
+    <script> src="https://code.jquery.com/jquery-1.11.0.min.js"</script>
+    <script>
+      jQuery(function($){
+          $("h3.symple-toggle-trigger").click(function(){
+              $(this).toggleClass("active").next().slideToggle("fast");
+              return false;
+          });
+      });
+      </script>
+
+<script>
+  $('.carousel').slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 4
+  });
+
+</script>
+<div class="carousel">
+  <div><img src="https://i.imgur.com/3aIutJi.png" alt="js" /></div>
+  <div><img src="https://i.imgur.com/rWtGeQ0.png" alt="java" /></div>
+  <div><img src="https://i.imgur.com/8946bSF.png" alt="python"/></div>
+  <div><img src="https://i.imgur.com/9Hc7hjb.png" alt="kotlin" /></div>
+  <div><img src="https://i.imgur.com/uZDEpjX.png" alt="scala" /></div>
+  <div><img src="https://i.imgur.com/eQoyQjy.png" alt="C#" /></div>
+  <div><img src="https://i.imgur.com/ko3iAbu.png" alt="PHP" /></div>
+  <div><img src="https://i.imgur.com/Afkz5od.png" alt="dotnet" /></div>
+</div>
